@@ -65,4 +65,4 @@ def ensure_dir_exists(directory):
 def get_output_path(filename_prefix, output_dir):
     """Generate full output path for plots."""
     ensure_dir_exists(output_dir)
-    return os.path.join(output_dir, f"{filename_prefix}.png")
+    return os.path.join(output_dir, f"{filename_prefix}.svg")
